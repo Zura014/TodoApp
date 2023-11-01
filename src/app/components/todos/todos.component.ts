@@ -38,7 +38,6 @@ export class TodosComponent implements OnInit {
       completed: false,
     });
     this.inputTodo = "";
-    localStorage.setItem(JSON.stringify(this.todos), "todos");
   };
   
 };
